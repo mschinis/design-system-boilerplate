@@ -1,3 +1,6 @@
+# Design system output
+dist
+
 # Logs
 logs
 *.log
