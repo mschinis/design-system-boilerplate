@@ -10,7 +10,8 @@
   "scripts": {
     "build": "webpack --config=webpack/base.config.js",
     "dev": "webpack-dev-server --config=webpack/dev.config.js",
-    "prepublishOnly": "webpack --config=webpack/publish.config.js"
+    "prepublishOnly": "webpack --config=webpack/publish.config.js",
+    "postpublish": ""
   },
   "repository": {
     "type": "git",
