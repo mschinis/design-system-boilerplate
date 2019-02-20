@@ -1,0 +1,15 @@
+button {
+  padding: 20px;
+}
+
+button.warn {
+  background: ds-color("yellow");
+}
+
+button.alert {
+  background: ds-color("red");
+}
+
+button.success {
+  background: ds-color("green");
+}

@@ -1,0 +1,11 @@
+@function ds-color($color) {
+  $color: quote($color);
+
+  // Throw an error if the color doesn't exist.
+  @if not map-has-key($ds-colors, $color) {
+    @error "Unknown color `#{$color}`";
+  }
+
+  // Otherwise return the color
+  @return map-get($ds-colors, $color);
+}
